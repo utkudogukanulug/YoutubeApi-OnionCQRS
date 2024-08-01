@@ -18,5 +18,7 @@ namespace YoutubeApi.Domain.Entities
 
         public Brand Brand { get; set; }
 
+        public ICollection<Category> Categories { get; set; }   
+        
     }
 }
